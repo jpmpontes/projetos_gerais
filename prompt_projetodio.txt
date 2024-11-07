@@ -1,0 +1,34 @@
+# Contexto
+Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+
+{{Biotipo}}
+{{Treino}}
+{{Tipo}}
+
+# Regras
+
+Regra 1: Biotipo
+Identificar conforme a variável acima, qual o será o tipo corporal que o solicitante informa: 
+
+-Ectomorfo	Corpo mais magro, difícil ganhar peso e massa muscular.
+-Mesomorfo	Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.
+-Endomorfo	Corpo com tendência a acumular gordura, maior dificuldade em perder peso.
+
+Regra 2: Treino
+Identificar conforme informado na variável, a quantidade mínima de dias e retornar com o treino correto:
+
+- 1 dia na semana Full Body: Treino que trabalha o corpo todo em uma única sessão.
+- 3 dias na semana ABC: Divisão do treino em três dias, cada um focado em grupos musculares diferentes.
+- 5 dias na semana ABCDE: Divisão do treino em cinco dias, com foco ainda mais específico em cada grupo muscular.
+
+Regra 3: Tipo
+Identificar na variável, conforme informação do cliente, qual o tipo de exerício a ser praticado:
+
+-Funcional	Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.
+-Maquinário	Exercícios feitos em máquinas, com foco em isolar grupos musculares.
+-Peso Livre	Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente.
+-Cardio	Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.
+-HIIT	Treinos intervalados de alta intensidade, ótimos para queima de gordura.
+
+# Resultado esperado
+Com base eu todo o levantamento feito na área de variáveis e com as suas guidelines, favor montar o melhor treino pessoal possível, levando em consideração os três itens
