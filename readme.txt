@@ -1,0 +1,1 @@
+Em entendi que o essa funçaõ do AWS é identitica ao Azure functions que já vi o funcionamento, entendo que isso pode ser a chave para muitos sucessos em projetos de microserviço.
